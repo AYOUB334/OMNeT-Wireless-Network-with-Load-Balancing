@@ -14,11 +14,12 @@ Clients select the AP not only based on signal quality but also based on the num
 
 ```ini
 **.wirelessHost*.mgmt.accessPointSelection = "LoadBalancing"
-
-## 🧪 How to Use This Project
 ```
 
-##1️⃣ Clone the Repository
+## 🧪 How to Use This Project
+
+
+## 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/AYOUB334/OMNeT-Wireless-Network-with-Load-Balancing.git
 cd OMNeT-Wireless-Network-with-Load-Balancing
