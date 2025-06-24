@@ -24,3 +24,35 @@ Clients select the AP not only based on signal quality but also based on the num
 git clone https://github.com/AYOUB334/OMNeT-Wireless-Network-with-Load-Balancing.git
 cd OMNeT-Wireless-Network-with-Load-Balancing
 ```
+2️⃣ Open in OMNeT++ IDE
+Launch OMNeT++
+
+Go to File → Import → General → Existing Project into Workspace
+
+Select this project folder (OMNeT-Wireless-Network-with-Load-Balancing)
+
+Make sure the INET project is already imported and built
+
+💡 Tip: Right-click the project → Properties → Project References → ✔️ INET
+
+3️⃣ Build the Project
+In the OMNeT++ IDE:
+
+Right-click the project → Build Project
+
+Or via terminal:
+
+bash
+Copier
+Modifier
+make
+4️⃣ Run the Simulation
+Open the file omnetpp.ini
+
+Right-click → Run As → OMNeT++ Simulation
+
+Select one of the following configurations:
+
+🟢 Test1: 5 mobile clients (balanced load scenario)
+
+🔴 Test2: 10 clients (overload and automatic AP reassociation)
