@@ -42,10 +42,9 @@ Right-click the project → Build Project
 
 Or via terminal:
 
-bash
-Copier
-Modifier
+```bash
 make
+```
 4️⃣ Run the Simulation
 Open the file omnetpp.ini
 
